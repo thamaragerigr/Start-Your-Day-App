@@ -8,10 +8,13 @@ import Weather from './pages/Weather/Weather'
 import Todo from './pages/Todo/Todo'
 import News from './pages/News/News'
 //Components
+import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+
 function App() {
   return (
     <div className="App">
+      <Header/>
      <div className="search-box">
        <Switch>
          <Route exact component={Home} path='/'></Route>
