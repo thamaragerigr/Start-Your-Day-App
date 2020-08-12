@@ -2,12 +2,13 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
+//Pages
+import Home from './pages/Home/Home'
+import Weather from './pages/Weather/Weather'
+import Todo from './pages/Todo/Todo'
+import News from './pages/News/News'
 //Components
-import Home from './components/Home/Home'
-import Weather from './components/Weather/Weather'
-import Todo from './components/Todo/Todo'
-import News from './components/News/News'
-
+import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
          <Route exact component={News} path='/news'></Route>
        </Switch>
          </div>
+         <Footer/>
     </div>
   );
 }
