@@ -34,7 +34,7 @@ function Header() {
                          <div className="flex">
                              <Link to="/" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Home</Link>
                              <Link to="/news" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">News</Link>
-                             <Link to="/todo" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Todo</Link>
+                             <Link to="/todos" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Todo</Link>
                              <Link to="/weather" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Weather</Link>
                              {/* <Link to="/favorites" className="App-link flex block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Favorites <img className="ml-2" src={Star} alt="starred"/></Link> */}
                          </div>
@@ -47,7 +47,7 @@ function Header() {
                  <div className="px-2 pt-2 pb-3">
                      <Link to="/" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Home</Link>
                      <Link to="/news" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">News</Link>
-                     <Link to="/todo" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Todo</Link>
+                     <Link to="/todos" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Todo</Link>
                      <Link to="/weather" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Weather</Link>
                      {/* <Link to="/favorites" className="App-link block px-3 py-2 rounded-md text-base font-medium text-blue-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"><span className="flex justify-center">Favorites <img className="ml-2" src={Star} alt="starred"/></span></Link> */}
                  </div>

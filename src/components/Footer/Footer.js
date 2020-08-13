@@ -2,8 +2,9 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div>
-            Footer
+        <div class="bg-gray-900 h-32 text-white py-8 text-xs">
+            <p>Illustrations by ...</p>
+            <p>Made with 💦 and 🩸</p>
         </div>
     )
 }

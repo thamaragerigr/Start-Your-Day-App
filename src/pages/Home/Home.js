@@ -3,8 +3,8 @@ import DogCall from'./Home.svg'
 
 function Home() {
     return (
-        <div>
-            <h1>Start Your Day</h1>
+        <div class="flex">
+            <h1 class="absolute">Start Your Day</h1>
             <img src={DogCall} alt="Man calling while taking the dog on a walk"/>
         </div>
     )
