@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col justify-between h-screen">
       <Header/>
      <div className="search-box">
        <Switch>
